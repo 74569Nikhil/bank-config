@@ -1,0 +1,22 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "prod"
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testAccount
+    username: postgres
+    password: cdac
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to Card related prod api's"
+  contactDetails:
+    name: "nikhil prod"
+    email: "nikhil-prod@gmail.com"
+  onCallSupport:
+    -(567)179-7389
+    -(555)283-7827

@@ -1,0 +1,46 @@
+#spring:
+#  application:
+#    name: Loan
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#
+#  jpa:
+#    database: postgresql
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#
+#  sql:
+#    init:
+#      mode: never
+#      platform: postgresql
+#  config:
+#    import:
+#      - "loan-qa.yml"
+#      - "loan-prod.yml"
+#  profiles:
+#    active:
+#      - local
+#      - "prod"
+#
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ant_path_matcher
+#
+#server:
+#  port: 8090
+
+build:
+  version: "3.0"
+
+loan:
+  message: "Welcome to loan related local api's"
+  contactDetails:
+    name: "nikhil"
+    email: "nikhil@gmail.com"
+  onCallSupport:
+    -(555)555-1234
+    -(555)523-1345

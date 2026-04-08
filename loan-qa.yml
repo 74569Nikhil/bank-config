@@ -1,0 +1,22 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "qa"
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testAccount
+    username: postgres
+    password: cdac
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to Loan related qa api's"
+  contactDetails:
+    name: "nikhil qa"
+    email: "nikhil-qa@gmail.com"
+  onCallSupport:
+    -(567)553-9363
+    -(555)523-8373
