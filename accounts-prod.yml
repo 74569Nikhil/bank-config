@@ -15,7 +15,8 @@ accounts:
   message: "Welcome to bank accounts related prod api's"
   contactDetails:
     name: "nikhil prod"
-    email: "nikhil-prod@gmail.com"
+    email: "{cipher}c9659922de3d6d1258bf123c2eb6becf6a7e09ba4738e6c013d5d78c91837780e1ce6b1ce105ec731e9001f8870bec48
+"
   onCallSupport:
     -(567)179-7389
     -(555)283-7827
