@@ -12,7 +12,7 @@ spring:
 build:
   version: "1.0"
 
-accounts:
+cards:
   message: "Welcome to Card related prod api's"
   contactDetails:
     name: "nikhil prod"
