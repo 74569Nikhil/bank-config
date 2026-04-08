@@ -12,7 +12,7 @@ spring:
 build:
   version: "2.0"
 
-accounts:
+loan:
   message: "Welcome to Loan related qa api's"
   contactDetails:
     name: "nikhil qa"
