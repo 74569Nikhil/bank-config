@@ -10,7 +10,7 @@ spring:
     password: cdac
 
 build:
-  version: "1.0"
+  version: "9.0"
 
 accounts:
   message: "Welcome to Loan related prod api's"
