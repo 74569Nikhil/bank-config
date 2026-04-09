@@ -13,7 +13,7 @@ build:
   version: "9.0"
 
 loan:
-  message: "Welcome to Loan related production api's"
+  message: "Welcome to Loan related webhook production api's"
   contactDetails:
     name: "nikhil prod"
     email: "nikhil-prod@gmail.com"
