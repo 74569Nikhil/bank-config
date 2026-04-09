@@ -13,7 +13,7 @@ build:
   version: "1.0"
 
 cards:
-  message: "Welcome to Card related production api's"
+  message: "Welcome to Card related prod api's"
   contactDetails:
     name: "nikhil prod"
     email: "nikhil-prod@gmail.com"
