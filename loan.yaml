@@ -30,11 +30,27 @@
 #    pathmatch:
 #      matching-strategy: ant_path_matcher
 #
-#server:
-#  port: 8090
-
+server:
+  port: 8090
+spring:
+  datasource:
+    url: jdbc:postgresql://host.docker.internal:5432/testAccount
+    username: postgres
+    password: cdac
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  sql:
+    init:
+      mode: never
+      platform: postgresql
 build:
-  version: "3.0"
+  version: "4.0"
 
 loan:
   message: "Welcome to loan related local api's"
