@@ -53,7 +53,7 @@ build:
   version: "3.0"
 
 accounts:
-  message: "Welcome to bank accounts related deafult for webhook api's"
+  message: "Welcome to bank accounts related for webho api's"
   contactDetails:
     name: "nikhil"
     email: "nikhil@gmail.com"
