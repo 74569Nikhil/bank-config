@@ -2,11 +2,11 @@
 #  config:
 #    activate:
 #      on-profile: "prod"
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/testAccount
-    username: postgres
-    password: cdac
+# spring:
+#   datasource:
+#     url: jdbc:postgresql://localhost:5432/testAccount
+#     username: postgres
+#     password: cdac
 
 build:
   version: "1.9"
