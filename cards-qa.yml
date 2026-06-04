@@ -18,5 +18,5 @@ cards:
     name: "nikhil qa"
     email: "nikhil-qa@gmail.com"
   onCallSupport:
-    -(567)553-9363
-    -(555)523-8373
+    - "(567)553-9363"
+    - "(555)523-8373"
