@@ -5,9 +5,9 @@
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/cardsdb
+    url: jdbc:mysql://localhost:3308/cardsdb
     username: root
-    password: cdac
+    password: root
 
 build:
   version: "2.0"
