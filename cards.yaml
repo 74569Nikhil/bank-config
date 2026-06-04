@@ -32,17 +32,27 @@
 #
 server:
   port: 9000
+
 spring:
-    datasource:
+  datasource:
     url: jdbc:mysql://localhost:3306/cardsdb
     username: root
     password: cdac
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
+    database: mysql
     show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
 
   sql:
     init:
       mode: always
+
 build:
   version: "3.0"
 
@@ -52,5 +62,5 @@ cards:
     name: "nikhil"
     email: "nikhil@gmail.com"
   onCallSupport:
-    -(555)555-1234
-    -(555)523-1345
+    - "(555)555-1234"
+    - "(555)523-1345"
