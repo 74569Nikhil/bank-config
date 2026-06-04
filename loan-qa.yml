@@ -5,9 +5,9 @@
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/loansdb
+    url: jdbc:mysql://localhost:3309/loansdb
     username: root
-    password: cdac
+    password: root
 
 build:
   version: "2.0"
