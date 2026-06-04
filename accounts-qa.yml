@@ -4,8 +4,8 @@
 #      on-profile: "qa"
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/testAccount
-    username: postgres
+    url: jdbc:mysql://localhost:3306/accountsdb
+    username: root
     password: cdac
 
 build:
