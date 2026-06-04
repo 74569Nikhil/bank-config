@@ -8,7 +8,11 @@
 #     url: jdbc:postgresql://localhost:5432/testAccount
 #     username: postgres
 #     password: cdac
-
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/loansdb
+    username: root
+    password: cdac
 build:
   version: "9.0"
 
