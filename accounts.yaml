@@ -33,16 +33,24 @@ server:
   port: 8080
 
 spring:
-    datasource:
+  datasource:
     url: jdbc:mysql://localhost:3306/accountsdb
     username: root
     password: cdac
+
   jpa:
+    database: mysql
     show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
 
   sql:
     init:
       mode: always
+
 build:
   version: "3.0"
 
@@ -52,5 +60,5 @@ accounts:
     name: "nikhil"
     email: "nikhil@gmail.com"
   onCallSupport:
-    -(555)555-1234
-    -(555)523-1345
+    - "(555)555-1234"
+    - "(555)523-1345"
