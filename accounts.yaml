@@ -52,7 +52,7 @@ spring:
       mode: always
 
 build:
-  version: "3.6"
+  version: "3.0"
 
 accounts:
   message: "Welcome to bank accounts related fornsnmsmnsmnsms api's"
