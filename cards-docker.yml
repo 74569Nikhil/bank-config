@@ -1,5 +1,5 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3309/cardsdb
+    url: jdbc:mysql://cardsdb:3309/cardsdb
     username: root
     password: root
